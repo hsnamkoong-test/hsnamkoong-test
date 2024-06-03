@@ -558,25 +558,53 @@ Learning Representations}}
 @string{qs = {Queueing Systems}}
 
 
-@article{LeeNaZe24,
-title = {Design and Scheduling of an AI-based Queueing System},
-author = {Jiung Lee  and Hongseok Namkoong and Yibo Zeng},
-year = 2024,
-journal = {Working paper}
-}
-
 @article{LiuWaCuNa24,
 title = {On the Need for a Language Describing Distribution Shifts: Illustrations on Tabular Datasets},
 author = {Jiashuo Liu$^*$ and Tianyu Wang$^*$ and Peng Cui and Hongseok Namkoong},
 year = 2024,
-journal = {arXiv:2307.05284 [cs.LG]}
+journal = {arXiv:2307.05284 [cs.LG]},
+abbr = {Trustworthy AI},
+bibtex_show={true},
+abstract={Different distribution shifts require different interventions, and algorithms must be grounded in the specific shifts they address. Advocating for an inductive approach to research on distributional robustness, we build an empirical testbed, "WhyShift", comprising of natural shifts across 5 tabular datasets and 60,000 model configurations encompassing imbalanced learning algorithms and distributionally robust optimization (DRO) methods. We find Y|X-shifts are most prevalent on our testbed, in stark contrast to the heavy focus on X (covariate)-shifts in the ML literature. We conduct
+an in-depth empirical analysis of DRO methods and find that the underlying model class (e.g.,
+neural networks, XGBoost) and hyperparameter selection have a first-order impact in practice
+despite being overlooked by DRO researchers. To further bridge that gap between methodological
+research and practice, we design case studies that illustrate how such a refined understanding of
+distribution shifts can enhance both data-centric and algorithmic interventions.},
+note={Conference version appeared in NeurIPS 2023.},
+arxiv={2307.05284},
+slides={LiuWaCuNa24-slides.pdf},
+website={https://github.com/namkoong-lab/whyshift},
+video={https://gsb-columbia-edu.zoom.us/rec/play/sKowK1a0T6cGx8IJELKEISEZs9MbUPB58xtmOmBjs09MfLY3RjEmUQ16AHdGL8PaipX2KAkW_gr4XIMT.T1PcyxmM_7XVve5H?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fgsb-columbia-edu.zoom.us%2Frec%2Fshare%2F_Dqv3yqQl8Gj27n-c8j5Cdpp9MJPoQGRNIUyFHQGskOhGsa6KneLYgmH3Qx-ogK2.-Qp9jC6bs7_RCZWA}
 }
 
-@inproceedings{LiuWaCuNa23,
-title = {On the Need for a Language Describing Distribution Shifts: Illustrations on Tabular Datasets},
-author = {Jiashuo Liu$^*$ and Tianyu Wang$^*$ and Peng Cui and Hongseok Namkoong},
-year = 2023,
-booktitle = nips2023
+@article{LeeNaZe24,
+title = {Design and Scheduling of an AI-based Queueing System},
+author = {Jiung Lee  and Hongseok Namkoong and Yibo Zeng},
+year = 2024,
+journal = {Working paper},
+abbr = {AI-driven decision-making},
+bibtex_show={true},
+abstract={Recent advances in AI present significant opportunities to
+                  rethink the design of service systems with AI at the
+                  forefront. Even in the era of LLMs, managing a
+                  workforce of human agents (“servers”) is a crit-
+                  ical problem. Crowdsourcing workers are vital for
+                  aligning LLMs with human values (e.g., ChatGPT) and
+                  in many domains, the cost of human annotation is a
+                  binding constraint (e.g., medical diagnosis from
+                  radiologists). This work models and analyzes modern
+                  service systems involving human reviewers and
+                  state-of-the-art AI models. A key intellectual
+                  challenge in managing con- gestion within such
+                  service systems is endogeneity. Prediction is never
+                  the goal, and the link between predictive
+                  performance and downstream decision-making
+                  performance is not straightforward due to
+                  endogeneity. Our work crystallizes how classical
+                  tools from queueing theory provide managerial
+                  insights into the design of AI-based service
+                  systems.}
 }
 
 
@@ -585,114 +613,91 @@ title = {Adaptive Experimentation at Scale: A Computational Framework for Flexib
 author = {Ethan Che and Hongseok Namkoong},
 year = 2023,
 journal = {arXiv:2303.11582 [cs.LG]},
-note={Major revision in Operations Research}
+note={Major revision in Operations Research},
+abbr = {Adaptive Data Collection},
+bibtex_show={true},
+arxiv={2303.11582},
+abstract={Starting with my one-year stint at Meta's adaptive
+                  experimentation team, I've been pondering on how
+                  bandit algorithms are largely designed by
+                  theoreticians to achieve good regret bounds and are
+                  rarely used in practice due to the difficulty of
+                  implementation and poor empirical performance. In
+                  this work, we focus on underpowered, short-horizon,
+                  and large-batch problems that typically arise in
+                  practice. We use large batch normal approximations
+                  to derive an MDP formulation for deriving the
+                  optimal adaptive design. Our formulation allows the
+                  use of computational tools for designing adaptive
+                  algorithms, a break from the existing theory-driven
+                  paradigm.},
+video={https://youtu.be/CLzRcOw9eyk},
+slides={CheNa23-slides.pdf},
+website={https://aes-batch.streamlit.app/}
 }
-
-@article{CheDoNa24,
-title={Auto-differentiable Discrete Event Simulation for Queuing Network Control},
-author = {Ethan Che and Jing Dong and Hongseok Namkoong},
-year = 2024,
-journal={Working paper},
-}
-
 
 @article{CaiNaYa23b,
 title = {Diagnosing Model Performance Under Distribution Shift},
 author = {Tiffany Cai and Hongseok Namkoong and Steve Yadlowsky},
 year = 2023,
 journal = {arXiv:2303.02011 [stat.ML]},
-note = {Major revision in Operations Research; Conference version appeared Symposium on Foundations of Responsible Computing 2023}
+note = {Major revision in Operations Research; Conference version appeared Symposium on Foundations of Responsible Computing 2023},
+abbr = {Trustworthy AI},
+bibtex_show={true},
+arxiv={2303.02011},
+abstract={Recent advances in AI present significant opportunities to
+                  rethink the design of service systems with AI at the
+                  forefront. Even in the era of LLMs, managing a
+                  workforce of human agents (“servers”) is a crit-
+                  ical problem. Crowdsourcing workers are vital for
+                  aligning LLMs with human values (e.g., ChatGPT) and
+                  in many domains, the cost of human annotation is a
+                  binding constraint (e.g., medical diagnosis from
+                  radiologists). This work models and analyzes modern
+                  service systems involving human reviewers and
+                  state-of-the-art AI models. A key intellectual
+                  challenge in managing con- gestion within such
+                  service systems is endogeneity. Prediction is never
+                  the goal, and the link between predictive
+                  performance and downstream decision-making
+                  performance is not straightforward due to
+                  endogeneity. Our work crystallizes how classical
+                  tools from queueing theory provide managerial
+                  insights into the design of AI-based service
+                  systems.}, video={https://gsb-columbia-edu.zoom.us/rec/play/sKowK1a0T6cGx8IJELKEISEZs9MbUPB58xtmOmBjs09MfLY3RjEmUQ16AHdGL8PaipX2KAkW_gr4XIMT.T1PcyxmM_7XVve5H?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fgsb-columbia-edu.zoom.us%2Frec%2Fshare%2F_Dqv3yqQl8Gj27n-c8j5Cdpp9MJPoQGRNIUyFHQGskOhGsa6KneLYgmH3Qx-ogK2.-Qp9jC6bs7_RCZWA},
+ code={https://github.com/namkoong-lab/disde},
+ slides={LiuWaCuNa24-slides.pdf}
 }
 
-@inproceedings{CaiNaYa23a,
-  title={Diagnosing Model Performance Under Distribution Shift},
-  author = {Tiffany Cai and Hongseok Namkoong and Steve Yadlowsky},
-  booktitle={Symposium on Foundations of Responsible Computing},
-  year=2023
-}
 
-
-@article{BoyarskyNaPo23b,
+@article{BoyarskyNaPo23,
 title = {Modeling Interference via Experiment Rollout},
 author = {Ari Boyarsky and Hongseok Namkoong and Jean Pouget-Abadie},
 year = 2023,
 journal={arXiv:2305.10728 [stat.ME]},
-note = {Conference version appeared in ACM conference on Economics and Computation}
-}
-
-@inproceedings{BoyarskyNaPo23a,
-title = {Modeling Interference via Experiment Rollout},
-author = {Ari Boyarsky and Hongseok Namkoong and Jean Pouget-Abadie},
-year = 2023,
-booktitle = {Proceedings of the 24th ACM conference on Economics and Computation}
+note = {Conference version appeared in ACM conference on Economics and Computation},
+abbr = {Robust Decision-Making},
+bibtex_show={true},
+slides={BoyarskyNaPo23-slides.pdf},
+arxiv={2305.10728}
 }
 
 
-@article{DuchiNa21,
-author = {John C. Duchi and Hongseok Namkoong},
-title = {Learning Models with Uniform Performance via Distributionally
-                  Robust Optimization},
-year = {2021},
-volume= 49,
-number = 3,
-pages={1378-1406},
-journal = {Annals of Statistics}
-}
-
-@article{DuchiHaNa22,
-author = {John C. Duchi and Tatsunori Hashimoto and Hongseok Namkoong},
-title = {Distributionally Robust Losses Against Mixture Covariate Shifts},
-year = 2022,
-journal = {Operations Research}
-}
-
-@article{DuchiGlNa21,
-  title={Statistics of Robust Optimization: A Generalized Empirical
-    Likelihood Approach},
-  author={John C. Duchi and Peter W. Glynn and Hongseok Namkoong},
-  year={2021},
-  volume={46},
-  number=3,
-  pages={946-969},
-  journal={Mathematics of Operations Research}
-}
-
-@article{DuchiNa19,
-title = {Variance-based regularization with convex objectives},
-author = {John C. Duchi and Hongseok Namkoong},
-year = 2019,
-journal = {Journal of Machine Learning Research},
-}
-
-@inproceedings{HashimotoSrNaLi18,
-  title={Fairness Without Demographics in Repeated Loss Minimization},
-  author={Hashimoto, Tatsu and Srivastava, Megha and Namkoong,
-                  Hongseok  and Liang, Percy},
-  booktitle={International Conference on Machine Learning},
-  year=2018,
-  note={Best Paper Runner-up Award}
-}
-
-@inproceedings{JeongNa20,
-  title={Robust Causal Inference under Covariate Shift via Worst-Case Subpopulation Treatment Effect},
-  author={Sookyo Jeong and  Hongseok Namkoong},
-  booktitle=colt20,
-  year=2020
+@article{NamkoongDaBa24,
+  title={Distilled Thompson Sampling: Practical and Efficient Thompson Sampling via Imitation Learning},
+  author={Hongseok Namkoong and Samuel Daulton and Eytan Bakshy},
+  journal={Major revision in Manufacturing \& Service Operations Management},
+  year=2024,
+  note={Selected for an oral presentation at the Neurips 2020 OfflineRL Workshop},
+    link={https://hsnamkoong.github.io/papers/NamkoongDaBa23.pdf}
 }
 
 @article{JeongNa22,
-  title={Robust Causal Inference under Covariate Shift via Worst-Case Subpopulation Treatment Effect},
+  title={Assessing External Validity via Worst-case Subpopulation Treatment Effects},
   author={Sookyo Jeong and  Hongseok Namkoong},
   journal={arXiv:2007.02411 [stat.ML]},
   year=2022,
 note={Short version appeared in Conference on Learning Theory 2020}
-}
-
-@inproceedings{LiNaXi21,
-author = {Mike Li and Hongseok Namkoong and Shangzhou Xia},
-title = {Evaluating model performance under worst-case subpopulations},
-year = 2021,
-booktitle = nips2021
 }
 
 @article{LiNaXi22,
@@ -704,44 +709,6 @@ journal = {Working paper},
 }
 
 
-@article{NamkoongDaBa24,
-  title={Distilled Thompson Sampling: Practical and Efficient Thompson Sampling via Imitation Learning},
-  author={Hongseok Namkoong and Samuel Daulton and Eytan Bakshy},
-  journal={Major revision in Manufacturing \& Service Operations Management},
-  year=2024,
-  note={Selected for an oral presentation at the Neurips 2020 OfflineRL Workshop},
-  link={https://hsnamkoong.github.io/papers/NamkoongDaBa23.pdf}
-}
-
-@inproceedings{NamkoongDu17,
- author = {Hongseok Namkoong and John C. Duchi},
- title = {Variance Regularization with Convex Objectives},
- year = 2017,
- booktitle = nips2017,
- note={Best Paper Award}
- }
-
-@inproceedings{NamkoongDu16,
-author = {Hongseok Namkoong and John C. Duchi},
-title = {Stochastic Gradient Methods for Distributionally
-  Robust Optimization with $f$-divergences},
-year = 2016,
-booktitle = nips2016,
-}
-
-@article{NamkoongDuGl18,
-  title={Proofs for empirical likelihood with general f-divergences},
-  author={Hongseok Namkoong and John C. Duchi and Peter W. Glynn},
-  year=2018,
-  journal={Technical Report}
-}
-@inproceedings{NamkoongKeYaBr20,
-  title={Off-policy Policy Evaluation For Sequential Decisions Under Unobserved Confounding},
-  author={Hongseok Namkoong$^*$ and Ramtin Keramati$^*$ and Steve Yadlowsky$^*$ and Emma Brunskill},
-  booktitle=nips2020,
-  year={2020}
-}
-
 @article{NamkoongMaGl22,
 title = {Minimax optimal estimation of stability under distribution
                   shift},
@@ -750,48 +717,6 @@ year = 2022,
 journal = {arXiv:2212.06338 [stat.ML]},
 note={Major revision in Operations Research}
 }
-
-@inproceedings{NamkoongSiYaDu17,
-  title={Adaptive sampling probabilities for non-smooth optimization},
-  author={Namkoong, Hongseok and Sinha, Aman and Yadlowsky, Steve and Duchi, John C},
-  booktitle={International Conference on Machine Learning},
-  pages={2574--2583},
-  year={2017}
-}
-
-@inproceedings{OKellySiNaDuTe18,
-  title={Scalable End-to-End Autonomous Vehicle Testing via Rare-event Simulation},
-  author={O'Kelly$^*$, Mathew and Sinha$^*$, Aman and Namkoong$^*$, Hongseok
-          and Duchi, John and Tedrake, Russ},
-  booktitle=nips2018,
-  year=2018
-}
-
-
-@inproceedings{SinhaNaDu18,
-  title={Certifiable Distributional Robustness with Principled Adversarial Training},
-  author={Sinha$^*$, Aman and Namkoong$^*$, Hongseok and Duchi, John},
-  booktitle={International Conference on Learning Representations},
-  year=2018,
-  note={Selected for a full oral presentation; 2\% of submissions}
-}
-
-@article{SinhaNaVoDu20,
-  title={Certifying Some Distributional Robustness with Principled Adversarial Training},
-  author={Sinha$^*$, Aman and Namkoong$^*$, Hongseok and Volpi, Riccardo and Duchi, John},
-  journal={Technical Report},
-  year=2020
-}
-
-
-@inproceedings{VolpiNaSeDuMuSa18,
-  title={Generalizing to Unseen Domains via Adversarial Data Augmentation},
-  author={Volpi$^*$, Riccardo and Namkoong$^*$, Hongseok and Duchi,
-                  John and Murino, Vittorio and Savarese, Silvio},
-  booktitle=nips2018,
-  year=2018
-}
-
 
 @article{YadlowskyNaBaDuTi22,
   title={Bounds on the conditional and average treatment effect 
@@ -803,6 +728,13 @@ note={Major revision in Operations Research}
   number=5,
   pages={2587--2615},
   year=2022
+}
+
+@inproceedings{NamkoongKeYaBr20,
+  title={Off-policy Policy Evaluation For Sequential Decisions Under Unobserved Confounding},
+  author={Hongseok Namkoong$^*$ and Ramtin Keramati$^*$ and Steve Yadlowsky$^*$ and Emma Brunskill},
+  booktitle=nips2020,
+  year={2020}
 }
 
 @inproceedings{WortsmanIlGaRoGoMoNaFaCaKoSc22,
@@ -821,24 +753,101 @@ note={Major revision in Operations Research}
 }
 
 
-@software{IlharcoWoCaTaDaShNaMiHaFaSc21,
-  author       = {Ilharco, Gabriel and
-                  Wortsman, Mitchell and
-                  Carlini, Nicholas and
-                  Taori, Rohan and
-                  Dave, Achal and
-                  Shankar, Vaishaal and
-                  Namkoong, Hongseok and
-                  Miller, John and
-                  Hajishirzi, Hannaneh and
-                  Farhadi, Ali and
-                  Schmidt, Ludwig},
-  title        = {OpenCLIP: Open-sourced Implementation of CLIP},
-  month        = {Jul},
-  year         = {2021},
-  publisher    = {Zenodo},
-  version      = {0.1},
-  doi          = {10.5281/zenodo.5143773},
-  url          = {https://doi.org/10.5281/zenodo.5143773}
+@article{DuchiHaNa22,
+author = {John C. Duchi and Tatsunori Hashimoto and Hongseok Namkoong},
+title = {Distributionally Robust Losses Against Mixture Covariate Shifts},
+year = 2022,
+journal = {Operations Research}
 }
+
+@article{DuchiNa21,
+author = {John C. Duchi and Hongseok Namkoong},
+title = {Learning Models with Uniform Performance via Distributionally
+                  Robust Optimization},
+year = {2021},
+volume= 49,
+number = 3,
+pages={1378-1406},
+journal = {Annals of Statistics}
+}
+
+@article{DuchiGlNa21,
+  title={Statistics of Robust Optimization: A Generalized Empirical
+    Likelihood Approach},
+  author={John C. Duchi and Peter W. Glynn and Hongseok Namkoong},
+  year={2021},
+  volume={46},
+  number=3,
+  pages={946-969},
+  journal={Mathematics of Operations Research}
+}
+
+@inproceedings{SinhaNaVoDu18,
+  title={Certifiable Distributional Robustness with Principled Adversarial Training},
+  author={Sinha$^*$, Aman and Namkoong$^*$, Hongseok and Volpi, Riccardo and Duchi, John},
+  booktitle={International Conference on Learning Representations},
+  year=2018,
+  note={Selected for a full oral presentation; 2\% of submissions},
+  arxiv={}
+}
+
+@article{DuchiNa19,
+title = {Variance-based regularization with convex objectives},
+author = {John C. Duchi and Hongseok Namkoong},
+year = 2019,
+journal = {Journal of Machine Learning Research},
+}
+
+@inproceedings{VolpiNaSeDuMuSa18,
+  title={Generalizing to Unseen Domains via Adversarial Data Augmentation},
+  author={Volpi$^*$, Riccardo and Namkoong$^*$, Hongseok and Duchi,
+                  John and Murino, Vittorio and Savarese, Silvio},
+  booktitle=nips2018,
+  year=2018
+}
+
+@inproceedings{OKellySiNaDuTe18,
+  title={Scalable End-to-End Autonomous Vehicle Testing via Rare-event Simulation},
+  author={O'Kelly$^*$, Mathew and Sinha$^*$, Aman and Namkoong$^*$, Hongseok
+          and Duchi, John and Tedrake, Russ},
+  booktitle=nips2018,
+  year=2018
+}
+
+
+@inproceedings{HashimotoSrNaLi18,
+  title={Fairness Without Demographics in Repeated Loss Minimization},
+  author={Hashimoto, Tatsu and Srivastava, Megha and Namkoong,
+                  Hongseok  and Liang, Percy},
+  booktitle={International Conference on Machine Learning},
+  year=2018,
+  note={Best Paper Runner-up Award}
+}
+
+@inproceedings{NamkoongDu17,
+ author = {Hongseok Namkoong and John C. Duchi},
+ title = {Variance Regularization with Convex Objectives},
+ year = 2017,
+ booktitle = nips2017,
+ note={Best Paper Award}
+ }
+
+@inproceedings{NamkoongSiYaDu17,
+  title={Adaptive sampling probabilities for non-smooth optimization},
+  author={Namkoong, Hongseok and Sinha, Aman and Yadlowsky, Steve and Duchi, John C},
+  booktitle={International Conference on Machine Learning},
+  pages={2574--2583},
+  year={2017}
+}
+
+@inproceedings{NamkoongDu16,
+author = {Hongseok Namkoong and John C. Duchi},
+title = {Stochastic Gradient Methods for Distributionally
+  Robust Optimization with $f$-divergences},
+year = 2016,
+booktitle = nips2016,
+}
+
+
+
 
