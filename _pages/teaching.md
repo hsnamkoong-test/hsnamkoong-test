@@ -7,7 +7,7 @@ nav: true
 nav_order: 6
 ---
 
-<br/>
+<h5 style="padding-bottom: 20px;"></h5>
 
 #### [[B9145] Topics in Trustworthy AI](https://hsnamkoong.github.io/b9145/index.html)
 ##### Ph.D., 2020, 2023.
@@ -16,7 +16,7 @@ As ML systems increasingly affect high-stakes decisions, it is critical that the
 
 This course surveys a range of emerging topics on reliability and robustness in machine learning. Most of the topics discussed in this class are active research areas, and relevant reading materials will draw upon recent literature (to be posted on the website). The goal of this class is to foster discussion on new research questions. This will encompass theoretical and methodological developments, modeling considerations, novel application areas, and other concerns rising out of practice.
 
-<br/>
+<h5 style="padding-bottom: 20px;"></h5>
 
 #### [[B8101] Business Analytics II: Foundations of AI](/assets/pdf/BA2-syllabus.pdf)
 ##### MBA and M.S., 2020-24.

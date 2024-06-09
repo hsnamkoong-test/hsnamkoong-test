@@ -4,7 +4,7 @@ permalink: /people/
 title: team
 description: I am fortunate to work with exceptionally talented students and postdocs. 
 nav: true
-nav_order: 3
+nav_order: 4
 body_class: team-page
 
 
