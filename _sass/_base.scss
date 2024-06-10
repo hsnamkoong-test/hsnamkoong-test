@@ -227,7 +227,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 
-/* .profile {
+ .profile-about {
   width: 100%;
 
   .more-info {
@@ -242,16 +242,16 @@ ul.task-list input[type="checkbox"] {
   }
 }
  
-.profile.float-right {
+.profile-about.float-right {
   margin-left: 1rem;
 }
 
-.profile.float-left {
+.profile-about.float-left {
   margin-right: 1rem;
 }
 
 @media (min-width: 576px) {
-  .profile {
+  .profile-about {
     width: 30%;
 
     .address {
@@ -275,50 +275,7 @@ ul.task-list input[type="checkbox"] {
     }
   }
 }
-*/
-.about-page .profile_about {
-  width: 100%;
 
-  .more-info {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-family: monospace;
-
-    p {
-      display: inline-block;
-      margin: 0;
-    }
-  }
-}
-
-.about-page .profile_about.float-right {
-  margin-left: 1rem;
-}
-
-.about-page .profile_about.float-left {
-  margin-right: 1rem;
-}
-
-.about-page .profile_about img {
-  width: auto; // Maintain original width
-  height: auto; // Maintain original height
-  max-width: 100%; // Ensure it fits within its container
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media (min-width: 576px) {
-  .about-page .profile_about {
-    width: 30%;
-
-    .address {
-      p {
-        display: block;
-      }
-    }
-  }
-}
 
 .about-page .post-description {
   margin-bottom: 2rem;
@@ -332,6 +289,16 @@ ul.task-list input[type="checkbox"] {
       text-decoration: none;
     }
   }
+}
+
+.profile-about img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover; // Ensure the image covers the container
+  object-position: center; // Center the image
 }
 
 
@@ -752,6 +719,9 @@ footer.sticky-bottom {
 
 .publications {
   margin-top: 2rem;
+  font-size: 1em; /* Decrease the font size */
+  max-width: 120%; /* Ensure it doesn't exceed 45% of the container width */
+  line-height: 2; /* Further reduce line-height */
 
   h1 {
     color: var(--global-theme-color);

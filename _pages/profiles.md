@@ -1,7 +1,7 @@
 ---
 layout: profiles
 permalink: /people/
-title: team
+title: Team
 description: I am fortunate to work with exceptionally talented students and postdocs. 
 nav: true
 nav_order: 4

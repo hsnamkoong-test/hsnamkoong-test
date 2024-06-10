@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: I teach several classes for Ph.D., M.S., and MBA students.
 nav: true
 nav_order: 6

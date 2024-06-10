@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: code & data
+title: Code & Data
 description: I am passionate about building empirical foundations for methodological progress. My group leads several open-source projects based on our research.
 nav: true
 nav_order: 5
