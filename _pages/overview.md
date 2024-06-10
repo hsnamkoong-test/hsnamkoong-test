@@ -70,7 +70,7 @@ I take a holistic “industrial engineering” view of AI systems, studying them
     </div>
 </div>
 
-My research group identifies central intellectual bottlenecks in real-world problems, and resolve them by building computational and data-centric foundations borne out of mathematical principles. While theoretical insights can provide invaluable principles, their successful operationalization requires recognizing and internalizing the limitations of crude approximations and unverifiable assumptions we put in place for mathematical convenience. Our research methodology aims to connect two disparate yet complementary worldviews:
+My research group identifies central intellectual bottlenecks in real-world problems, and resolves them by building computational and data-centric foundations borne out of mathematical principles. While theoretical insights can provide invaluable principles, their successful operationalization requires recognizing and internalizing the limitations of crude approximations and unverifiable assumptions we put in place for mathematical convenience. Our research methodology aims to connect two disparate yet complementary worldviews:
 - computational tools and mathematical insights from statistical learning, optimization, applied probability, and casual inference
 - rigorous empirical benchmarking practices arising from the AI research community’s data-centric approach.
 
